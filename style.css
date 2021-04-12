@@ -23,7 +23,44 @@ body{
     
 }
 
-@media (min-width: 1024px) {
+
+
+
+@media (max-width: 767px) {
+    /* стили для xs-устройств */
+    body{
+        background-image: url('https://images.unsplash.com/photo-1512798705819-f4be9c1ed36e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') ;
+        background-repeat: no-repeat;
+        background-size: 100%;   
+        background-position: 100%;
+        
+    }
+    
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* стили для sm-устройств */
+    body{
+        background-image: url('https://images.unsplash.com/photo-1523296066596-7ff8bb6e6d29?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') ;
+        background-repeat: no-repeat;
+        background-size: 100%;   
+        background-position: 100%;
+        
+    }
+    
+  }
+  @media (min-width: 991px) and (max-width: 1199px) {
+    /* стили для md-устройств */
+    body{
+        background-image: url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') ;
+        background-repeat: no-repeat;
+        background-size: 100%;   
+        background-position: 100%;
+        
+    }
+   
+  }
+  @media (min-width: 1200px) {
+    /* стили для lg-устройств */
     body{
         background-image: url('https://images.unsplash.com/photo-1508905475152-c325323ac955?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') ;
         background-repeat: no-repeat;
@@ -31,13 +68,5 @@ body{
         background-position: 100%;
         
     }
-    .game-card{
-        position: absolute;
-        
-        width: 100vw ;
-        height: 100vh; 
-        top: 50vh;
-        transform:translate(0, -50%)
-        
-    }
+    
   }
